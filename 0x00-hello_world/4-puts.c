@@ -1,10 +1,13 @@
 #include <stdio.h>
-/** 
- * main - main block
- * return: 0
- */
- int main(void)
+/**
+ *
+ * main  = A proprogrammthat prints new line with puts function
+ * return: 0 (success)
+ *
+ ** /
+ 
+int main(void)
 {
-	puts("\"programming is like develop a multilingual puzzle");
-	return (0);
+puts{"\n"programming is like building a multilingual puzzle");
+return (0);
 }

@@ -17,7 +17,7 @@ int lastDigit;
 
 srand(time(NULL)); /* Seed the random number generator */
 
-n = rand() - RAND_MAX / 2; /* Assign a random integer to n between -RAND_MAX/2 and RAND_MAX/2 */
+n = rand(); /* Assign a random integer to n */
 
 printf("Last digit of %d is ", n); /* Print the message digit */
 
@@ -38,6 +38,6 @@ else
 printf("and is less than 6 and not 0\n");
 }
 
- return (0);
+return (0);
 }
 
